@@ -1,0 +1,25 @@
+Updating NPM:
+npm install npm@latest -g
+
+Check version:
+npm -v
+
+What is package.json
+package.json is a way to manage the locally installed packages.
+package.json serves as documentation on which our project depends.
+It is kind of a directory which keeps track of all the dependencies our project is using.
+It allows us to specify the versions of packages our project is using. This is achieved using semantic versioning rules.
+Create package.json : We can create package.json file using the npm init command.
+
+npm init --yes (to say yes to all queries)
+
+Installing a package:
+npm install < package_name >
+npm install -g < package_name > (for global install)
+npm install express@4.15.1 (to install a specific version of npm)
+
+npm uninstall gannit (uninstall a package)
+
+
+
+
